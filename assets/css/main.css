@@ -1175,16 +1175,16 @@ section {
 }
 
 /*--------------------------------------------------------------
-# e-commerce Section
+# portfolio Section
 --------------------------------------------------------------*/
-.e-commerce .e-commerce-flters {
+.portfolio .portfolio-flters {
   padding: 0;
   margin: 0 auto 30px auto;
   list-style: none;
   text-align: center;
 }
 
-.e-commerce .e-commerce-flters li {
+.portfolio .portfolio-flters li {
   color: var(--color-secondary);
   cursor: pointer;
   display: inline-block;
@@ -1197,31 +1197,31 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.e-commerce .e-commerce-flters li:hover,
-.e-commerce .e-commerce-flters li.filter-active {
+.portfolio .portfolio-flters li:hover,
+.portfolio .portfolio-flters li.filter-active {
   color: var(--color-primary);
 }
 
-.e-commerce .e-commerce-flters li:first-child {
+.portfolio .portfolio-flters li:first-child {
   margin-left: 0;
 }
 
-.e-commerce .e-commerce-flters li:last-child {
+.portfolio .portfolio-flters li:last-child {
   margin-right: 0;
 }
 
 @media (max-width: 575px) {
-  .e-commerce .e-commerce-flters li {
+  .portfolio .portfolio-flters li {
     font-size: 14px;
     margin: 0 5px;
   }
 }
 
-.e-commerce .e-commerce-item {
+.portfolio .portfolio-item {
   position: relative;
 }
 
-.e-commerce .e-commerce-item .e-commerce-info {
+.portfolio .portfolio-item .portfolio-info {
   opacity: 0;
   position: absolute;
   left: 30px;
@@ -1233,22 +1233,22 @@ section {
   padding: 15px;
 }
 
-.e-commerce .e-commerce-item .e-commerce-info h4 {
+.portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
   font-weight: 600;
   color: var(--color-default);
   padding-right: 50px;
 }
 
-.e-commerce .e-commerce-item .e-commerce-info p {
+.portfolio .portfolio-item .portfolio-info p {
   color: #6c757d;
   font-size: 14px;
   margin-bottom: 0;
   padding-right: 50px;
 }
 
-.e-commerce .e-commerce-item .e-commerce-info .preview-link,
-.e-commerce .e-commerce-item .e-commerce-info .details-link {
+.portfolio .portfolio-item .portfolio-info .preview-link,
+.portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
   right: 50px;
   font-size: 24px;
@@ -1258,23 +1258,23 @@ section {
   line-height: 0;
 }
 
-.e-commerce .e-commerce-item .e-commerce-info .preview-link:hover,
-.e-commerce .e-commerce-item .e-commerce-info .details-link:hover {
+.portfolio .portfolio-item .portfolio-info .preview-link:hover,
+.portfolio .portfolio-item .portfolio-info .details-link:hover {
   color: var(--color-primary);
 }
 
-.e-commerce .e-commerce-item .e-commerce-info .details-link {
+.portfolio .portfolio-item .portfolio-info .details-link {
   right: 14px;
   font-size: 28px;
 }
 
-.e-commerce .e-commerce-item:hover .e-commerce-info {
+.portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
   bottom: 20px;
 }
 
 /*--------------------------------------------------------------
-# e-commerce Details
+# portfolio Details
 --------------------------------------------------------------*/
 .portofolio_details .portofolio_details-slider img {
   width: 100%;
@@ -1297,12 +1297,12 @@ section {
   background-color: var(--color-primary);
 }
 
-.portofolio_details .e-commerce-info {
+.portofolio_details .portfolio-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(27, 47, 69, 0.1);
 }
 
-.portofolio_details .e-commerce-info h3 {
+.portofolio_details .portfolio-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -1310,28 +1310,28 @@ section {
   border-bottom: 1px solid #d6e2ef;
 }
 
-.portofolio_details .e-commerce-info ul {
+.portofolio_details .portfolio-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-.portofolio_details .e-commerce-info ul li+li {
+.portofolio_details .portfolio-info ul li+li {
   margin-top: 10px;
 }
 
-.portofolio_details .e-commerce-description {
+.portofolio_details .portfolio-description {
   padding-top: 30px;
 }
 
-.portofolio_details .e-commerce-description h2 {
+.portofolio_details .portfolio-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
   color: var(--color-secondary);
 }
 
-.portofolio_details .e-commerce-description p {
+.portofolio_details .portfolio-description p {
   padding: 0;
 }
 
