@@ -250,7 +250,7 @@ section {
 }
 
 .header.sticked {
-  background: #543310;
+  background: #1E443D;
   padding: 12px 0;
 }
 
@@ -409,7 +409,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: #AF8F6F;
+    background: #84AE96;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -499,7 +499,7 @@ section {
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  min-height: 100vh;
+  min-height: 110vh;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
@@ -512,7 +512,7 @@ section {
     position: absolute;
     content: "";
     width: 40%;
-    background: var(--color-secondary);
+    background: #ffffff00;
     top: 0;
     bottom: 0;
   }
@@ -521,13 +521,15 @@ section {
 .hero:before {
   position: absolute;
   content: "";
-  background: rgba(27, 47, 69, 0.6);
+  background: #ffffff00;
+  /* background: rgba(27, 47, 69, 0.6); */
   inset: 0;
 }
 
 @media (max-width: 1034px) {
   .hero:before {
-    background: #84AE96;
+    background: #ffffff00;
+    /* background: #84AE96; */
   }
 }
 
