@@ -48,6 +48,7 @@ a {
   transition: 0.3s;
 }
 
+
 a:hover {
   color: #F8F4E1;
   text-decoration: none;
@@ -60,6 +61,7 @@ h4,
 h5,
 h6 {
   font-family: var(--font-primary);
+  color: #111;
 }
 
 /*--------------------------------------------------------------
@@ -768,7 +770,7 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action {
-  background: linear-gradient(#74512D,#74512D), url("../img/cta-bg.jpg") center center;
+  background: #84AE96;
   background-size: cover;
   padding: 100px 0;
 }
