@@ -19,9 +19,9 @@
 
 /* Colors */
 :root {
-  --color-default: #AF8F6F;
-  --color-primary: #74512D;
-  --color-secondary: #543310;
+  --color-default: #ffffff;
+  --color-primary: #1E443D;
+  --color-secondary: #84AE96;
 }
 /* :root {
   --color-default: #2b180d;
@@ -296,7 +296,7 @@ section {
     font-family: var(--font-default);
     font-size: 15px;
     font-weight: 500;
-    color: #AF8F6F;
+    color: #84AE96;
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -527,7 +527,7 @@ section {
 
 @media (max-width: 1034px) {
   .hero:before {
-    background: #74512D;
+    background: #84AE96;
   }
 }
 
@@ -573,7 +573,7 @@ section {
 }
 
 .hero .btn-get-started:hover {
-  background: #74512D;
+  background: #84AE96;
 }
 
 .hero .btn-watch-video {
